@@ -1,9 +1,43 @@
-﻿$color: #fff;
-
-body{
-	background: $color;
+﻿
+header{
+	width: 1170px;
+	height: 88px;
+	margin: 0 auto;
 }
 
-p{
-	color: $color;
+.header_logo{
+	display: inline-block;
+	margin: 21px 10px 0px 0px;
+	float: left;
+}
+
+.header_title{
+	margin: 30px 98px 0px 0px;
+	display: inline-block;
+	font: 900 26px Roboto;
+	text-transform: uppercase;
+	color: #4f555a;
+}
+
+.header_text{
+	margin: 38px 96px 0px 0px;
+	display: inline-block;
+	font: 400 14px Roboto;
+	span{
+	font-weight: 700;
+}
+}
+
+.header_phone{
+	display: inline-block;
+	font: 400 26px Cuprum;
+	text-decoration: none;
+	color: #2f3131;
+}
+
+.header_button{
+	display: inline-block;
+	font: 400 18px Cuprum;
+	text-transform: uppercase;
+	color: #fff;
 }
